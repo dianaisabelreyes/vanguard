@@ -68,12 +68,8 @@ table {
 /*Mobile*/
 @media screen and (min-width: 400px)
 {}
-@media screen and (min-width:  768px) {
-    
-}
-@media screen and (min-width: 1200px) {
-    
-}
+
+
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
@@ -95,7 +91,7 @@ table {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
- {
+.floating-svg {
     content: "";
 
     left:-.5rem;
@@ -152,6 +148,7 @@ table {
 
 
 /* MEDIA QUERIES (MEDIUM) */ 
+@media all and (min-width:  768px) {
 
     #results {
         grid-template-columns: 1fr 1fr;
@@ -167,5 +164,6 @@ table {
         width: 50%;
     }
 
-
+}
 /* MEDIA QUERIES (LARGE) */
+@media screen and (min-width: 1200px) {}

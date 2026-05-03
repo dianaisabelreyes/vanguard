@@ -139,9 +139,6 @@ nav ul li a {
     -webkit-backdrop-filter: blur(9px);
     backdrop-filter: blur(9px);
     border-radius: 13px;
-
-   
-
 }
 .Innovation h2{
     color:#EAEAEA;
@@ -156,12 +153,51 @@ nav ul li a {
     line-height: 1.2;
 
 }
-a .button {
+.button {
     display: inline-block;
-    padding: 10px, 25px;
+    padding: 10px 25px;
     background-color: #007BFF;
     color: #EAEAEA;
     text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.button:hover {
+  
+
+}
+.Expertise h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+
+}
+.Expertise {
+    background-color: #EAEAEA;
+    font-family: intern, sans serif;
+
+
+
+}
+.Expertise p {
+   padding-left: 9px;
+   font-size: 13px;
+}
+.offer h2 {
+    font-weight: bold;
+    color: #000000;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.offer h3, .offer p {
+    color: #EAEAEA;
+    background-color: #007BFF;
+    padding: 10px;
+    margin: 5px 0;
 
 }
 

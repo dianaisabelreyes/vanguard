@@ -307,7 +307,7 @@ tr:nth-child(even) {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition:;
+    transition: height 1.0s ease-in-out;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
@@ -359,4 +359,12 @@ footer{
 
 }
 /* MEDIA QUERIES (LARGE) */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .results {
+        display: flex;
+        justify-content: space-between;
+    }
+    .results-table {
+        flex: 0 1 40%;
+    }
+}

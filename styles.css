@@ -206,11 +206,36 @@ nav ul li a {
     padding: 25px;
     border-radius: 10px;
     text-align: left;
+    margin-bottom: 40px;
 }
 .offer-item h3 {
     font-weight: bold;
     padding-bottom: 10px;
     padding-top: 7px;
+}
+.results h2 {
+    color: #EAEAEA;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.results {
+    background-color: #007BFF;
+    padding-top: 15px;
+}
+.results p {
+    color: #EAEAEA;
+}
+.results-table h3 {
+    color:#EAEAEA;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+table {
+    border-collapse: collapse;
+    background-color: #000000;
+    color: #EAEAEA;
 }
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {

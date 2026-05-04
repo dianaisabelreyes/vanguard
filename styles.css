@@ -144,6 +144,7 @@ nav ul li a {
     color:#EAEAEA;
     font-weight: bold;
     padding-bottom: 5px;
+    font-size: 25px;
 
 }
 .Innovation p {
@@ -169,19 +170,15 @@ nav ul li a {
 .Expertise h2 {
     color: #000000;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 15px;
-
 
 }
 .Expertise {
     background-color: #EAEAEA;
     font-family: intern, sans serif;
-
-
-
 }
 .Expertise p {
    padding-left: 9px;
@@ -192,6 +189,7 @@ nav ul li a {
     color: #000000;
     padding-top: 15px;
     padding-left: 15px;
+    font-size: 25px;
 }
 
 .offer-grid {
@@ -217,6 +215,7 @@ nav ul li a {
     color: #EAEAEA;
     font-weight: bold;
     padding-bottom: 15px;
+    font-size: 25px;
 }
 .results {
     background-color: #007BFF;
@@ -230,6 +229,8 @@ nav ul li a {
     font-weight: bold;
     padding-bottom: 20px;
     padding-top: 10px;
+    font-size: 25px;
+    text-align: left;
 
 }
 .results-table {
@@ -242,9 +243,13 @@ table {
     color: #EAEAEA;
     margin-top: 20px;
     width: 100%;
-}
+    justify-content: left;
+}    
 th, td {
     text-align: center;
+}
+th {
+    padding-top: 15px;
 }
 td {
     padding: 10px;
@@ -254,7 +259,35 @@ tr:nth-child(even) {
     background-color: #333333;
 }
 
+.results {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    justify-content: space-between;
+}
+#contact {
+    background-color: #000000;
+    color: #EAEAEA;
+    padding-top: 15px;
 
+}
+#contact h2 {
+    color: #EAEAEA;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+#contact p {
+    color: #EAEAEA;
+    padding-bottom: 10px;
+}
+.results h3 {
+    font-weight: bold;
+    color: #EAEAEA;
+    font-size: 25px;
+
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
@@ -301,7 +334,12 @@ tr:nth-child(even) {
     animation: stepUp 1s ease-in-out forwards;
 }
 
-
+footer{
+    padding-top: 10px;
+    background-color: #000000;
+    text-align: center;
+    color: #EAEAEA;
+}
 /* MEDIA QUERIES (MEDIUM) */ 
 @media all and (min-width:  768px) {
 
